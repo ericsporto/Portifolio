@@ -12,7 +12,7 @@
 .header_container {
     height: 98vh;
     width: 100%;
-    background-image:linear-gradient(to left, #282BFA, #7376FB);
+    background-image:linear-gradient(to left, #006CE0, #82BCFA);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,6 +30,8 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    
+    
 }
 
 .h1 {
