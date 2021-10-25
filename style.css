@@ -12,7 +12,8 @@
 .header_container {
     height: 98vh;
     width: 100%;
-    background-image:linear-gradient(to left, #006CE0, #82BCFA);
+    background-image:linear-gradient(45deg, #2F0A61, #5411AD, #6E16E0, #7D2EE6);
+    background-size: 300% 300%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +24,20 @@
     font-size: 30px;
     border-radius: 10px;
     box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.425);
+    animation: colors 15s ease infinite;
     
+}
+
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 .header_container img{
